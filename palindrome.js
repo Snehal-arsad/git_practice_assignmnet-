@@ -1,10 +1,10 @@
 
 let bag="";
-function CheckPalindrome(string){
-  for(let i=string.length-1;i>=0;i--){
-    bag=bag+string[i];
+function CheckPalindrome(str){
+  for(let i=str.length-1;i>=0;i--){
+    bag=bag+str[i];
   }
-  if(string!==bag){
+  if(str===bag){
     return true;
   }
   return false;

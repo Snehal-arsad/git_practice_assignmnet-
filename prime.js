@@ -1,8 +1,8 @@
-function CheckPrime(number){
+function CheckPrime(num){
   let count=0;
-  for(let i=i;i<=number;i++){
-    if(number%i==0){
-         count;
+  for(let i=1;i<=num;i++){
+    if(num%i==0){
+         count++;
     }
   }
   if(count==2){
@@ -12,8 +12,8 @@ function CheckPrime(number){
 }
 let ans=CheckPrime(13); 
 if(ans == true){
-  console.log("Its a prime number");
+  console.log("It is a prime number");
 }
 else{
-  console.log("Not a prime number");
+  console.log("It is Not a prime number");
 }
